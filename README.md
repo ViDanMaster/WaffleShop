@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# WaffleShop with React + Typescript using Decorator Pattern
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project, WaffleShop, is a simple web application built with React and Typescript. Its main purpose is to demonstrate the usage of the decorator pattern in object-oriented programming.
 
-Currently, two official plugins are available:
+## Why WaffleShop?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The primary goal of WaffleShop is to provide a practical example of implementing the decorator pattern in a real-world scenario. By creating a virtual waffle shop where customers can customize their waffles with various toppings, sauces, and chocolates, we can showcase how the decorator pattern can be used to add additional behavior or features to objects dynamically.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React: A popular JavaScript library for building user interfaces.
+- Typescript: A statically typed superset of JavaScript that compiles to plain JavaScript.
+- Decorator Pattern: A design pattern that allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class.
+- Tailwind CSS: A utility-first CSS framework for quickly building custom designs.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To run the WaffleShop project locally, follow these steps:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies by running `npm install`.
+4. Start the development server with `npm start`.
+5. Open your browser and go to `http://localhost:3000` to view the application.
